@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+body{
+    margin: 0px;
+    background-color: #eff7e1;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 16px;
+}
+#section0{
+    background-color: #ff7b54;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+#section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.div-img{
+    width: 50%;
+    
+}
+.texto_bienvenido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #493323;
+    padding-left: 20px;
+}
+button{
+    width: 50%;
+}
+button a{
+    text-decoration: none;
+    color: #493323;
+
+}
+#section2{
+    background-image: url('./img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card{
+    margin: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card:hover{
+    box-shadow: rgb(100 100 111 / 50%) 0px 10px 35px 0px;
+}
+footer{
+    background-color: #fdb827;
+    text-align: center;
+    padding: 20px;
+    color: #433520;
+}
+@media screen and (max-width: 600px){
+    article{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 900px){
+    article{
+        width: 33.3%;
+    }
+}
